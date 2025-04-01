@@ -1,0 +1,16 @@
+<div class="favorite-container" [ngStyle]="{ display: fav ? 'none' : 'block' }">
+  @for (car of favoriteCars; track $index) {
+  <ul class="cars">
+    <li>
+      <div class="favcar">
+        <img class="favcar-image" [src]="car.img" />
+        <p>{{ car.model }}</p>
+        <button class="xbtn" (click)="closebtn(car)">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </div>
+    </li>
+  </ul>
+
+  }
+</div>

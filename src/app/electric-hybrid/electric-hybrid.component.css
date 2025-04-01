@@ -1,0 +1,118 @@
+.electric-car-img {
+  width: 100%;
+  object-fit: contain;
+  height: 250px;
+}
+
+.electric-container {
+  height: 700px;
+  background: rgb(63, 247, 236);
+  background: linear-gradient(
+    4deg,
+    rgba(63, 247, 236, 0) 1%,
+    rgba(52, 191, 221, 0.7456232492997199) 100%
+  );
+}
+
+.electric-container span {
+  font-size: 1.3rem;
+  padding: 1rem;
+  color: var(--secondary-color);
+  margin-left: 1rem;
+  background-color: var(--third-color);
+  border-radius: 9px;
+}
+.electric-container div {
+  margin-top: 3rem;
+}
+
+.about-electric {
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+
+.about-electric h2 {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  color: var(--third-color);
+}
+
+.about-electric p {
+  color: var(--third-color);
+}
+
+.directions {
+  margin-top: 25rem;
+}
+
+.directions h2 {
+  color: var(--third-color);
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.directions p {
+  color: var(--third-color);
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.directions img {
+  margin-left: 4rem;
+  height: 250px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+h3 {
+  text-align: center;
+  color: var(--secondary-color);
+  text-transform: capitalize;
+}
+.list li {
+  padding-bottom: 1rem;
+  color: var(--third-color);
+  font-weight: 600;
+}
+
+ul span {
+  color: var(--primary-color);
+  background-color: var(--tik-color);
+  margin: 4px;
+  border-radius: 21px;
+}
+
+@media screen and (min-width: 640px) {
+  .directions img {
+    width: 350px;
+    margin-left: 8rem;
+  }
+
+  .directions {
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .directions img {
+    width: 400px;
+    margin-left: 17rem;
+  }
+
+  .directions {
+    margin-top: 8rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .directions img {
+    width: 500px;
+    margin-left: 25rem;
+  }
+
+  .directions {
+    margin-top: 8rem;
+  }
+}

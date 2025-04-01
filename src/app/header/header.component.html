@@ -1,0 +1,37 @@
+<div>
+  <main class="header">
+    <button (click)="openbtn()" class="burger-menu">
+      <i class="fa-solid fa-bars"></i>
+      menu
+    </button>
+    <div class="title">
+      <h1>rentalCars.</h1>
+    </div>
+    <div class="header-btns">
+      <div class="car-select" title="favoriteCar">
+        <button (click)="favoriteTogle()">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+      </div>
+    </div>
+  </main>
+  <!-- list -->
+  <aside class="aside">
+    <button (click)="closebtn()" class="close-btn">
+      <i class="fa-solid fa-x"></i>
+    </button>
+    <ul>
+      <li><a routerLink="/home" (click)="sidebarclose()">home</a></li>
+      <li><a routerLink="/aboutUs" (click)="sidebarclose()">about us</a></li>
+      <li><a routerLink="/reviews" (click)="sidebarclose()">reviews</a></li>
+      <li>
+        <a routerLink="/hybrid-electric" (click)="sidebarclose()"
+          >electric & hybrid</a
+        >
+      </li>
+    </ul>
+  </aside>
+  <app-favorite [fav]="favorite"></app-favorite>
+</div>
+
+<router-outlet></router-outlet>

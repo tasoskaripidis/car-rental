@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  overflow: scroll;
+}
+
+img {
+  width: 300px;
+  height: 500px;
+  object-fit: contain;
+}
+
+:root {
+  --primary-color: white;
+  --cars-background: rgba(250, 245, 245, 0.919);
+  --secondary-color: rgb(95, 181, 209);
+  --third-color: rgb(22, 68, 83);
+  --electric-container-color: rgb(48, 155, 191);
+  --cars-details: black;
+  --gold-color: rgb(241, 241, 9);
+  --tik-color: rgb(19, 195, 19);
+  --reviews-color: rgb(105, 102, 102);
+  --reviews-background: rgb(176, 226, 242);
+  --changesecondary-color: rgb(22, 68, 83);
+  --changethird-color: white;
+}
