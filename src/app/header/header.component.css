@@ -77,12 +77,6 @@ aside a {
   font-weight: 600;
 }
 
-aside a:hover {
-  border-left: 4px solid var(--third-color);
-  padding: 0.5rem;
-  transition: ease-in 0.3s all;
-}
-
 .hide-aside {
   visibility: hidden;
   animation: sidebar-reverse 1.3s ease forwards;

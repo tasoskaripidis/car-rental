@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "dist/rent-cars/browser",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
